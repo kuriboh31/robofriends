@@ -1,6 +1,5 @@
 Project Named Robofriends created by using Create React App
 
-https://kuriboh31.github.io/robofriends
 
 # Getting Started with Create React App
 
