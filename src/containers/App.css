@@ -1,0 +1,134 @@
+@font-face {
+        font-family: 'Pokemon Hollow Normal';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Pokemon Hollow Normal'), url('Pokemon Hollow.woff') format('woff');
+        }
+        
+    
+@font-face {
+        font-family: 'Pokemon Solid Normal';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Pokemon Solid Normal'), url('Pokemon Solid.woff') format('woff');
+        }
+
+h1 {
+    font-family: 'Pokemon Hollow Normal';
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.animate {
+	font-size: 75px;
+        margin: 300px 0 0;
+}
+
+.animate span {
+	display: inline-block;
+}
+
+span {
+        font-family: 'Pokemon Solid Normal';
+    }
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+.animate span:nth-of-type(21) {
+	animation-delay: .10s;
+}
+.animate span:nth-of-type(22) {
+	animation-delay: .100s;
+}
+.animate span:nth-of-type(23) {
+	animation-delay: .11s;
+}
+.animate span:nth-of-type(24) {
+	animation-delay: .110s;
+}
+
+/* Animation Seven */
+.seven span {
+	color: #46411c;
+	opacity: 0;
+	transform: translate(-150px, 0) scale(.3);
+	animation: leftRight 5s infinite;
+}
+
+@keyframes leftRight {
+	40% {
+		transform: translate(50px, 0) scale(.7);
+		opacity: 1;
+		color: #520c05;
+	}
+
+	60% {
+		color: #ffffff;
+	}
+
+	80% {
+		transform: translate(0) scale(2);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+                font-family: 'Pokemon Hollow Normal';
+	}
+}
